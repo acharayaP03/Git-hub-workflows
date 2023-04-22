@@ -25,7 +25,7 @@ jobs:
           node-version: 18
       - name: Install all dependencies
         run: npm ci
-        - name: Build Prod version
-          run: npm run build
-        - name: Deploy
-          run : echo "Deploying....."
+      - name: Build Prod version
+        run: npm run build
+      - name: Deploy
+        run : echo "Deploying....."
